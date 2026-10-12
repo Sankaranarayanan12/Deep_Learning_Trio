@@ -7,7 +7,7 @@ Convolution layer-> ReLU activation -> Pooling and this repeats for certain numb
 This project also helped me understand the importance of data preprocessing where I encountered the channel dimension was missing in the input and should accordingly include it, converting the continuous outputs into discrete classes by multiplying and rounding off, converting the inputs and outputs into datasets and eventually dataloaders suitable for the model.
 
 I got the following baseline results:
-Training Accuracy: 71% , Validation Accuracy: 70% , Test Accuracy: 70%
+Training Accuracy: 71% , Validation Accuracy: 70% , Test Accuracy: 70% for the elpv dataset.
 
 2) Self attention mechanism: I learnt the core idea behind self attention mechanism which is:
    
